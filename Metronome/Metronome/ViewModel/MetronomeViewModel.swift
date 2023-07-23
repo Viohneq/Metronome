@@ -60,13 +60,29 @@ class MetronomeViewModel : ObservableObject {
         }
     }
     
-    func onFinished(value: DragGesture.Value) {
-        if isPlaying {
-            toggle()
-            toggle()
+    func changeBpm(value: Int) {
+        let newValue = bpm + Double(value)
+        switch newValue {
+        case 0...bpmRange.lowerBound:
+            bpm = 40
+        case bpmRange.lowerBound...bpmRange.upperBound:
+            bpm = newValue
+        default:
+            bpm = bpmRange.upperBound
         }
+        if newValue < 40.0 || newValue > 280.0 {
+            return
+        } else {
+            bpm = newValue
+        }
+        updateAngle()
+        updatePlayerRate()
+        restartAfterChangedValue()
     }
     
+    func onFinished(value: DragGesture.Value) {
+        restartAfterChangedValue()
+    }
     
     private func updatePlayerRate() {
         player.rate = Float(bpm / 60)
@@ -89,5 +105,12 @@ class MetronomeViewModel : ObservableObject {
     
     private func updateBpm() {
         bpm = angle * 0.833 + 40
+    }
+    
+    private func restartAfterChangedValue() {
+        if isPlaying {
+            toggle()
+            toggle()
+        }
     }
 }

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA71743C2A6D5C2B0028E34B /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA71743B2A6D5C2B0028E34B /* AudioKit */; };
+		CA71743F2A6D5C3E0028E34B /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = CA71743E2A6D5C3E0028E34B /* AudioKitEX */; };
+		CA7174422A6D5C540028E34B /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = CA7174412A6D5C540028E34B /* SoundpipeAudioKit */; };
+		CA7174452A6D5C6E0028E34B /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = CA7174442A6D5C6E0028E34B /* AudioKitUI */; };
+		CA7174472A6D5E6B0028E34B /* MetronomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7174462A6D5E6B0028E34B /* MetronomeButton.swift */; };
+		CA7174492A6D62060028E34B /* MetronomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7174482A6D62060028E34B /* MetronomeSlider.swift */; };
+		CA71744B2A6D62130028E34B /* MetronomeTapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71744A2A6D62130028E34B /* MetronomeTapButton.swift */; };
+		CA71744D2A6D64A80028E34B /* MetronomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7174462A6D5E6B0028E34B /* MetronomeButton.swift */; };
+		CA71744E2A6D64A80028E34B /* MetronomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7174462A6D5E6B0028E34B /* MetronomeButton.swift */; };
+		CA71744F2A6D64AB0028E34B /* MetronomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7174482A6D62060028E34B /* MetronomeSlider.swift */; };
+		CA7174502A6D64AB0028E34B /* MetronomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7174482A6D62060028E34B /* MetronomeSlider.swift */; };
 		CAE076452A6BF589006B90DB /* MetronomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE076442A6BF589006B90DB /* MetronomeApp.swift */; };
 		CAE076472A6BF589006B90DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE076462A6BF589006B90DB /* ContentView.swift */; };
 		CAE076492A6BF589006B90DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE076482A6BF589006B90DB /* Assets.xcassets */; };
@@ -23,6 +34,12 @@
 		CAE076772A6BF663006B90DB /* MetronomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE076762A6BF663006B90DB /* MetronomeViewModel.swift */; };
 		CAE076782A6BF663006B90DB /* MetronomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE076762A6BF663006B90DB /* MetronomeViewModel.swift */; };
 		CAE076792A6BF663006B90DB /* MetronomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE076762A6BF663006B90DB /* MetronomeViewModel.swift */; };
+		CAE0767B2A6BF788006B90DB /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0767A2A6BF788006B90DB /* TunerView.swift */; };
+		CAE0767C2A6BF788006B90DB /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0767A2A6BF788006B90DB /* TunerView.swift */; };
+		CAE0767D2A6BF788006B90DB /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0767A2A6BF788006B90DB /* TunerView.swift */; };
+		CAE0767F2A6BF87A006B90DB /* TunerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0767E2A6BF87A006B90DB /* TunerViewModel.swift */; };
+		CAE076802A6BF87A006B90DB /* TunerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0767E2A6BF87A006B90DB /* TunerViewModel.swift */; };
+		CAE076812A6BF87A006B90DB /* TunerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0767E2A6BF87A006B90DB /* TunerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA7174462A6D5E6B0028E34B /* MetronomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeButton.swift; sourceTree = "<group>"; };
+		CA7174482A6D62060028E34B /* MetronomeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeSlider.swift; sourceTree = "<group>"; };
+		CA71744A2A6D62130028E34B /* MetronomeTapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeTapButton.swift; sourceTree = "<group>"; };
 		CAE076412A6BF589006B90DB /* Metronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE076442A6BF589006B90DB /* MetronomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeApp.swift; sourceTree = "<group>"; };
 		CAE076462A6BF589006B90DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,9 +73,12 @@
 		CAE0765B2A6BF58A006B90DB /* MetronomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetronomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE0765F2A6BF58A006B90DB /* MetronomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeUITests.swift; sourceTree = "<group>"; };
 		CAE076612A6BF58A006B90DB /* MetronomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CAE0766E2A6BF5F6006B90DB /* tick_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tick_sound.wav; path = Metronome/tick_sound.wav; sourceTree = SOURCE_ROOT; };
+		CAE0766E2A6BF5F6006B90DB /* tick_sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tick_sound.wav; path = Metronome/Resources/tick_sound.wav; sourceTree = SOURCE_ROOT; };
 		CAE076722A6BF64B006B90DB /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
 		CAE076762A6BF663006B90DB /* MetronomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewModel.swift; sourceTree = "<group>"; };
+		CAE0767A2A6BF788006B90DB /* TunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
+		CAE0767E2A6BF87A006B90DB /* TunerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerViewModel.swift; sourceTree = "<group>"; };
+		CAE076822A6BFD98006B90DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +86,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA71743C2A6D5C2B0028E34B /* AudioKit in Frameworks */,
+				CA71743F2A6D5C3E0028E34B /* AudioKitEX in Frameworks */,
+				CA7174452A6D5C6E0028E34B /* AudioKitUI in Frameworks */,
+				CA7174422A6D5C540028E34B /* SoundpipeAudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +110,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA71744C2A6D64940028E34B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAE076722A6BF64B006B90DB /* MetronomeView.swift */,
+				CA7174462A6D5E6B0028E34B /* MetronomeButton.swift */,
+				CA7174482A6D62060028E34B /* MetronomeSlider.swift */,
+				CA71744A2A6D62130028E34B /* MetronomeTapButton.swift */,
+				CAE0767A2A6BF788006B90DB /* TunerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA7174512A6D64BA0028E34B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0766E2A6BF5F6006B90DB /* tick_sound.wav */,
+				CAE076482A6BF589006B90DB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA7174522A6D64DC0028E34B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAE076762A6BF663006B90DB /* MetronomeViewModel.swift */,
+				CAE0767E2A6BF87A006B90DB /* TunerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		CAE076382A6BF589006B90DB = {
 			isa = PBXGroup;
 			children = (
@@ -106,13 +163,13 @@
 		CAE076432A6BF589006B90DB /* Metronome */ = {
 			isa = PBXGroup;
 			children = (
-				CAE0766E2A6BF5F6006B90DB /* tick_sound.wav */,
+				CA7174522A6D64DC0028E34B /* ViewModel */,
+				CA7174512A6D64BA0028E34B /* Resources */,
+				CA71744C2A6D64940028E34B /* Views */,
+				CAE076822A6BFD98006B90DB /* Info.plist */,
 				CAE076442A6BF589006B90DB /* MetronomeApp.swift */,
 				CAE076462A6BF589006B90DB /* ContentView.swift */,
-				CAE076482A6BF589006B90DB /* Assets.xcassets */,
 				CAE0764A2A6BF589006B90DB /* Preview Content */,
-				CAE076722A6BF64B006B90DB /* MetronomeView.swift */,
-				CAE076762A6BF663006B90DB /* MetronomeViewModel.swift */,
 			);
 			path = Metronome;
 			sourceTree = "<group>";
@@ -158,6 +215,12 @@
 			dependencies = (
 			);
 			name = Metronome;
+			packageProductDependencies = (
+				CA71743B2A6D5C2B0028E34B /* AudioKit */,
+				CA71743E2A6D5C3E0028E34B /* AudioKitEX */,
+				CA7174412A6D5C540028E34B /* SoundpipeAudioKit */,
+				CA7174442A6D5C6E0028E34B /* AudioKitUI */,
+			);
 			productName = Metronome;
 			productReference = CAE076412A6BF589006B90DB /* Metronome.app */;
 			productType = "com.apple.product-type.application";
@@ -230,6 +293,12 @@
 				Base,
 			);
 			mainGroup = CAE076382A6BF589006B90DB;
+			packageReferences = (
+				CA71743A2A6D5C2A0028E34B /* XCRemoteSwiftPackageReference "AudioKit" */,
+				CA71743D2A6D5C3E0028E34B /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				CA7174402A6D5C540028E34B /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+				CA7174432A6D5C6E0028E34B /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+			);
 			productRefGroup = CAE076422A6BF589006B90DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,8 +345,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE076732A6BF64B006B90DB /* MetronomeView.swift in Sources */,
+				CA71744B2A6D62130028E34B /* MetronomeTapButton.swift in Sources */,
+				CA7174492A6D62060028E34B /* MetronomeSlider.swift in Sources */,
 				CAE076772A6BF663006B90DB /* MetronomeViewModel.swift in Sources */,
 				CAE076472A6BF589006B90DB /* ContentView.swift in Sources */,
+				CAE0767F2A6BF87A006B90DB /* TunerViewModel.swift in Sources */,
+				CAE0767B2A6BF788006B90DB /* TunerView.swift in Sources */,
+				CA7174472A6D5E6B0028E34B /* MetronomeButton.swift in Sources */,
 				CAE076452A6BF589006B90DB /* MetronomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +362,11 @@
 			files = (
 				CAE076782A6BF663006B90DB /* MetronomeViewModel.swift in Sources */,
 				CAE076562A6BF58A006B90DB /* MetronomeTests.swift in Sources */,
+				CA71744D2A6D64A80028E34B /* MetronomeButton.swift in Sources */,
 				CAE076742A6BF64B006B90DB /* MetronomeView.swift in Sources */,
+				CAE0767C2A6BF788006B90DB /* TunerView.swift in Sources */,
+				CAE076802A6BF87A006B90DB /* TunerViewModel.swift in Sources */,
+				CA71744F2A6D64AB0028E34B /* MetronomeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +375,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE076752A6BF64B006B90DB /* MetronomeView.swift in Sources */,
+				CA7174502A6D64AB0028E34B /* MetronomeSlider.swift in Sources */,
 				CAE076792A6BF663006B90DB /* MetronomeViewModel.swift in Sources */,
 				CAE076602A6BF58A006B90DB /* MetronomeUITests.swift in Sources */,
+				CAE076812A6BF87A006B90DB /* TunerViewModel.swift in Sources */,
+				CAE0767D2A6BF788006B90DB /* TunerView.swift in Sources */,
+				CA71744E2A6D64A80028E34B /* MetronomeButton.swift in Sources */,
 				CAE076622A6BF58A006B90DB /* MetronomeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -444,11 +526,15 @@
 				DEVELOPMENT_TEAM = 72QPQ3P58F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Metronome/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"To fetch your guitar tone\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,11 +559,15 @@
 				DEVELOPMENT_TEAM = 72QPQ3P58F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Metronome/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"To fetch your guitar tone\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -607,6 +697,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA71743A2A6D5C2A0028E34B /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CA71743D2A6D5C3E0028E34B /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CA7174402A6D5C540028E34B /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CA7174432A6D5C6E0028E34B /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA71743B2A6D5C2B0028E34B /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA71743A2A6D5C2A0028E34B /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		CA71743E2A6D5C3E0028E34B /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA71743D2A6D5C3E0028E34B /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		CA7174412A6D5C540028E34B /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA7174402A6D5C540028E34B /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		CA7174442A6D5C6E0028E34B /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA7174432A6D5C6E0028E34B /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CAE076392A6BF589006B90DB /* Project object */;
 }
